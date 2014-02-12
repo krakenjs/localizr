@@ -99,22 +99,5 @@ test('localizr', function (t) {
         localizr.createReadStream(options).on('error', onerror);
     });
 
-
-    t.skip('missing key', function (t) {
-        var options, dest;
-
-        options = {
-            src: path.join(__dirname, 'fixtures', 'templates', 'missing.dust'),
-            props: path.join(__dirname, 'fixtures', 'content', 'index.properties')
-        };
-
-        dest = concat({ encoding: 'string' }, function(data) {
-            t.equal(data, '<h1>☃bar☃</h1>');
-            t.end();
-        });
-
-        localizr.createReadStream(options).pipe(dest);
-    });
-
 });
 
