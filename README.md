@@ -16,8 +16,8 @@ var out, options;
 
 out = path.join(__dirname, 'templates', 'out', 'index.dust');
 options = {
-  src: path.join(__dirname, 'templates', 'index.dust',
-  props: path.join(__dirname, 'content', 'index.properties'
+  src: path.join(__dirname, 'templates', 'index.dust'),
+  props: path.join(__dirname, 'content', 'index.properties')
 };
 
 localizr.createReadStream(options).pipe(fs.createWriteStream(out));
