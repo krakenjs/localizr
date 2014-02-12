@@ -1,0 +1,18 @@
+Hello, {@pre type="content" key="state" /}!
+Hello: {@pre type="content" key="state" sep=", " /}!
+Hello:\r\n{@pre type="content" key="state" sep="\r\n" /}!
+{@pre type="content" key="state" mode="json" /}
+{@pre type="content" key="state" mode="paired" /}
+{@pre type="content" key="bankRules" mode="paired" /}
+{@pre type="content" key="state" mode="json" before="->" after="->" /}
+{@pre type="content" key="state" mode="paired" before="->" after="->" /}
+{@pre type="content" key="state" mode="json" sep="+" /}
+{@pre type="content" key="state" mode="paired" sep="+" /}
+{@pre type="content" key="stooge" mode="json" /}
+{@pre type="content" key="stooge" mode="paired" /}
+Hello: {@pre type="content" key="state" after="->" /}!
+<ul>{@pre type=content key=state before="<li>" after="</li>" /}</ul>
+<ul>{@pre type=content key=state before="<li>" after="</li>" sep="\r\n" /}</ul>
+Hello: {@pre type="content" key="stooge" sep=", " /}
+Hello: {@pre type="content" key="state" before="$key " after=" $key" sep=", $key " /}
+<select>{@pre type=content key=months before="<option value=$key>" after="</option>" /}</select>

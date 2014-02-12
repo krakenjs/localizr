@@ -1,0 +1,20 @@
+Hello, {@pre type="content" key="states" /}!
+Hello: {@pre type="content" key="states" sep=", " /}!
+Hello:\r\n{@pre type="content" key="states" sep="\r\n" /}!
+{@pre type="content" key="states" mode="json" /}
+{@pre type="content" key="states" mode="paired" /}
+{@pre type="content" key="listQuote" mode="json" /}
+{@pre type="content" key="listQuote" mode="paired" /}
+{@pre type="content" key="states" mode="json" before="->" after="->"/}
+{@pre type="content" key="states" mode="paired" before="->" after="->"/}
+{@pre type="content" key="states" mode="json" sep="+" /}
+{@pre type="content" key="states" mode="paired" sep="+" /}
+{@pre type="content" key="names" mode="json" /}
+{@pre type="content" key="names" mode="paired" /}
+Hello: {@pre type="content" key="states" before="->" /}!
+Hello: {@pre type="content" key="states" after="->" /}!
+<ul>{@pre type=content key=states before="<li>" after="</li>" /}</ul>
+<ul>{@pre type=content key=states before="<li>" after="</li>" sep="\r\n" /}</ul>
+Hello: {@pre type="content" key="names" after="->" /}
+Hello: {@pre type="content" key="names" before="$idx" after="$idx" sep="$idx" /}
+{@pre type="content" key="states2" before="#" after="@" /}

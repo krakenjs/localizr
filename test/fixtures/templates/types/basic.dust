@@ -1,0 +1,14 @@
+Hello, {@pre type="content" key="name" /}!
+{@pre type="content" key="tabs4" /}
+Hello, {@pre type="content" /}!
+Hello, {@pre type="content" key="name" mode="json"/}!
+Hello, {@pre type="content" key="name" mode="paired"/}!
+Hello, {@pre type="content" key="name" mode="json" before="[" after="]" /}!
+Hello, {@pre type="content" key="name" before="[" after="]" /}!
+{@pre type="content" key="textQuote"/}
+{@pre type="content" key="backslashQuote"/}
+{@pre type="content" key="controlQuote"/}
+{@pre type="content" key="textQuote" mode="json"/}
+{@pre type="content" key="backslashQuote" mode="json"/}
+{@pre type="content" key="controlQuote" mode="json"/}
+Hello, {@pre type="link" /}!
