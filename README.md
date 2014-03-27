@@ -3,6 +3,8 @@ localizr
 
 Experiments with the guts of makara.
 
+[![Build Status](https://travis-ci.org/krakenjs/localizr.svg)](https://travis-ci.org/krakenjs/localizr)
+
 ```bash
 $ npm install -g localizr
 $ localizr --props=content/index.properties --out=templates/out templates/index.dust
