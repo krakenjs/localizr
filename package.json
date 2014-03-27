@@ -12,9 +12,18 @@
     "cover": "istanbul cover tape -- test/*.js",
     "lint": "jshint -c .jshintrc index.js lib/"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krakenjs/localizr.git"
+  },
   "author": "Erik Toth <ertoth@paypal.com>",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "readmeFilename": "README.md",
   "dependencies": {
     "minimist": "0.0.7",
     "findatag": "0.0.9",
@@ -22,9 +31,9 @@
     "mkdirp": "~0.3.5"
   },
   "devDependencies": {
-    "tape": "~2.4.2",
-    "istanbul": "~0.2.4",
-    "jshint": "~2.4.3",
-    "concat-stream": "~1.4.1"
+    "tape": "~2.12.0",
+    "istanbul": "~0.2.6",
+    "jshint": "~2.4.4",
+    "concat-stream": "~1.4.4"
   }
 }
