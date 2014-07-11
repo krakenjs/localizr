@@ -25,10 +25,11 @@
   ],
   "readmeFilename": "README.md",
   "dependencies": {
-    "minimist": "0.0.7",
+    "ent": "^2.0.0",
     "findatag": "0.0.9",
-    "spud": "0.0.3",
-    "mkdirp": "~0.3.5"
+    "minimist": "0.0.7",
+    "mkdirp": "~0.3.5",
+    "spud": "0.0.3"
   },
   "devDependencies": {
     "tape": "~2.12.0",
