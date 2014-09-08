@@ -1,9 +1,14 @@
 localizr
 ========
 
-Experiments with the guts of makara.
+A library and tool to apply localization to dust templates before rendering.
 
 [![Build Status](https://travis-ci.org/krakenjs/localizr.svg)](https://travis-ci.org/krakenjs/localizr)
+
+It applies the contents of 'content bundles' to `{@pre}` tags in dust templates, as first described in [Makara's README](https://github.com/krakenjs/makara/blob/master/README.md)
+
+Use
+----
 
 ```bash
 $ npm install -g localizr
