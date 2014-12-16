@@ -15,7 +15,7 @@
  \*───────────────────────────────────────────────────────────────────────────*/
 'use strict';
 
-var fs = require('fs'),
+var fs = require('graceful-fs'),
     assert = require('assert'),
     tagfinder = require('findatag'),
     bundle = require('./lib/bundle'),
