@@ -1,7 +1,7 @@
 {
   "name": "localizr",
   "version": "0.1.2",
-  "description": "A utility for translating files.",
+  "description": "A library and tool to apply localization to dust templates before rendering",
   "main": "index.js",
   "bin": "localizr.js",
   "directories": {
