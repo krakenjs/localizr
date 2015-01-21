@@ -30,7 +30,7 @@
     "graceful-fs": "^3.0.5",
     "minimist": "0.0.7",
     "mkdirp": "~0.3.5",
-    "spud": "^1.1.1"
+    "spud": "^1.1.2"
   },
   "devDependencies": {
     "tape": "~2.12.0",
