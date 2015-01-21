@@ -99,5 +99,22 @@ test('localizr', function (t) {
         localizr.createReadStream(options).on('error', onerror);
     });
 
+    t.test('properties file is completely empty', function (t) {
+        var options = {
+            src: path.resolve(__dirname, 'fixtures/templates/index.dust'),
+            props: path.resolve(__dirname, 'fixtures/content/null.properties')
+        };
+
+        function onerror(err) {
+            t.err(err);
+            t.end();
+        }
+
+        localizr.createReadStream(options).on('error', onerror).pipe(concat(function (s) {
+            t.equal(s.toString(), "<h1>☃foo☃</h1>");
+            t.end();
+        }));
+    });
+
 });
 
