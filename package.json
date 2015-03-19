@@ -1,6 +1,6 @@
 {
   "name": "localizr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility for translating files.",
   "main": "index.js",
   "bin": "localizr.js",
