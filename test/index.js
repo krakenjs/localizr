@@ -116,5 +116,19 @@ test('localizr', function (t) {
         }));
     });
 
+    t.test('no properties for dust template', function (t) {
+        var options = {
+            src: path.resolve(__dirname, 'fixtures/templates/nobundle.dust'),
+            props: path.resolve(__dirname, 'fixtures/properties')
+        };
+
+        function onerror(err) {
+            t.equal(err.message, "Could not load bundle '" + options.props + "': Cannot find module \'./\'");
+            t.end();
+        }
+
+        localizr.createReadStream(options).on('error', onerror);
+    });
+
 });
 
