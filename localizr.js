@@ -3,7 +3,7 @@
 var fs = require('fs'),
     path = require('path'),
     localizr = require('./'),
-    mkdirp = require('mkdirp');
+    mkdirp = require('mkdirp'),
     minimist = require('minimist');
 
 
