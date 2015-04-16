@@ -123,7 +123,7 @@ test('localizr', function (t) {
         };
 
         function onerror(err) {
-            t.equal(err.message, "Could not load bundle '" + options.props + "': Cannot find module \'./\'");
+            t.equal(err.message, "Cannot find module \'./\'");
             t.end();
         }
 
