@@ -1,7 +1,6 @@
 'use strict';
 
-var fs = require('fs'),
-    test = require('tape'),
+var test = require('tape'),
     path = require('path'),
     tagfinder = require('findatag'),
     concat = require('concat-stream'),
