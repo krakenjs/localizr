@@ -1,6 +1,6 @@
 {
   "name": "localizr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A library and tool to apply localization to dust templates before rendering",
   "main": "index.js",
   "bin": "localizr.js",
