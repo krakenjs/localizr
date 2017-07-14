@@ -1,7 +1,4 @@
-localizr
-========
-
-Lead Maintainer: [Aria Stewart](https://github.com/aredridel)  
+# localizr
 
 [![Build Status](https://travis-ci.org/krakenjs/localizr.svg?branch=master)](https://travis-ci.org/krakenjs/localizr)
 
